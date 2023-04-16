@@ -1,5 +1,5 @@
 from pprint import pprint
-with open('recipes.txt', encoding = 'utf-8') as file:
+with open('recipes', encoding = 'utf-8') as file:
     cook_book = {}
     for line in file:
         dish_name = line.strip()
